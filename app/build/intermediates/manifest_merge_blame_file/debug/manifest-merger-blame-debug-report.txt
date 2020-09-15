@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2008-2012  OMRON SOFTWARE Co., Ltd.
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="jp.co.omronsoft.openwnn" >
+19
+20    <uses-sdk android:minSdkVersion="1" />
+20-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+21
+22    <original-package android:name="jp.co.omronsoft.openwnn" />
+22-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:20:5-64
+22-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:20:23-61
+23
+24    <uses-permission
+24-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:22:5-124
+25        xmlns:android="http://schemas.android.com/apk/res/android"
+25-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:22:22-80
+26        android:name="android.permission.VIBRATE" />
+26-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:22:81-122
+27
+28    <application
+28-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:23:5-50:19
+29        android:debuggable="true"
+30        android:label="OpenWnn"
+30-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:23:18-41
+31        android:testOnly="true" >
+32        <service
+32-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:25:9-32:19
+33            android:id="@string/openwnn_japanese"
+33-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:27:4-41
+34            android:name="jp.co.omronsoft.openwnn.OpenWnnJAJP"
+34-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:25:18-44
+35            android:label="Japanese IME"
+35-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:25:45-73
+36            android:permission="android.permission.BIND_INPUT_METHOD" >
+36-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:26:4-61
+37            <intent-filter>
+37-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:28:13-30:29
+38                <action android:name="android.view.InputMethod" />
+38-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:29:17-67
+38-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:29:25-64
+39            </intent-filter>
+40
+41            <meta-data
+41-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:31:13-91
+42                android:name="android.view.im"
+42-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:31:24-54
+43                android:resource="@xml/method_ja" />
+43-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:31:55-88
+44        </service>
+45
+46        <activity
+46-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:34:9-40:20
+47            android:name="jp.co.omronsoft.openwnn.OpenWnnControlPanelJAJP"
+47-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:34:19-58
+48            android:label="@string/preference_ime_setting_app" >
+48-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:35:17-67
+49            <intent-filter>
+49-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:36:13-39:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:37:17-69
+50-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:37:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:38:17-77
+52-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:38:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity android:name="jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsListJAJP" />
+55-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:42:2-86
+55-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:42:12-83
+56        <activity
+56-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:44:2-137
+57            android:name="jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsEditJAJP"
+57-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:44:12-83
+58            android:label="@string/user_dictionary_edit_words" />
+58-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:44:84-134
+59        <activity android:name="jp.co.omronsoft.openwnn.EN.UserDictionaryToolsListEN" />
+59-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:46:2-82
+59-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:46:12-79
+60        <activity
+60-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:48:2-133
+61            android:name="jp.co.omronsoft.openwnn.EN.UserDictionaryToolsEditEN"
+61-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:48:12-79
+62            android:label="@string/user_dictionary_edit_words" />
+62-->C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:48:80-130
+63    </application>
+64
+65</manifest>

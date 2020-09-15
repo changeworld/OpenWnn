@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "29,27,20,22,26,23,24,25,21,32,28,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1188,1081,746,838,1033,883,928,980,789,1353,1140,1249,1298",
+                        "endColumns": "60,58,42,44,47,44,51,52,48,51,47,48,54",
+                        "endOffsets": "1244,1135,784,878,1076,923,975,1028,833,1400,1183,1293,1348"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,175,218,263,311,356,408,461,510,562,610,659",
+                        "endColumns": "60,58,42,44,47,44,51,52,48,51,47,48,54",
+                        "endOffsets": "111,170,213,258,306,351,403,456,505,557,605,654,709"
+                    }
+                }
+            ]
+        }
+    ]
+}

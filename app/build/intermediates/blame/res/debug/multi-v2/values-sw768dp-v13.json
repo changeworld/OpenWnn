@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw768dp-v13\\values-sw768dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\src\\main\\res\\values-sw768dp\\colors.xml",
+                    "from": {
+                        "startLines": "19,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "702,651",
+                        "endColumns": "50,50",
+                        "endOffsets": "748,697"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,50",
+                        "endOffsets": "101,152"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\src\\main\\res\\values-sw768dp\\dimens.xml",
+                    "from": {
+                        "startLines": "29,26,30,18,27,25,28,22,35,34,19,20,21,23,24,31,32,33",
+                        "startColumns": "4,4,4,4,4,1,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1199,1044,1260,651,1099,991,1150,839,1521,1467,703,746,791,898,949,1318,1367,1422",
+                        "endColumns": "60,54,57,51,50,49,48,58,54,53,42,44,47,50,44,48,54,44",
+                        "endOffsets": "1255,1094,1313,698,1145,1039,1194,893,1571,1516,741,786,834,944,989,1362,1417,1462"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "157,218,273,331,383,434,487,536,595,650,704,747,792,840,891,936,985,1040",
+                        "endColumns": "60,54,57,51,50,52,48,58,54,53,42,44,47,50,44,48,54,44",
+                        "endOffsets": "213,268,326,378,429,482,531,590,645,699,742,787,835,886,931,980,1035,1080"
+                    }
+                }
+            ]
+        }
+    ]
+}

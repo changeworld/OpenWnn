@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cand_space_width_emoji_symbol">0dip</dimen>
+    <dimen name="candidate_delete_word_size">18dip</dimen>
+    <dimen name="key_height">40dip</dimen>
+    <dimen name="key_height_4">40dip</dimen>
+    <dimen name="key_height_4key">46dip</dimen>
+    <dimen name="key_height_5">36dip</dimen>
+    <dimen name="key_height_5_bottom">68dip</dimen>
+    <dimen name="key_height_adjustment">4dip</dimen>
+    <dimen name="key_height_voice">80dip</dimen>
+    <dimen name="key_label_text_size">12dip</dimen>
+    <dimen name="key_text_size">17.5dip</dimen>
+    <dimen name="keyboard_height">160dip</dimen>
+    <dimen name="symbol_keyboard_height">40dip</dimen>
+</resources>

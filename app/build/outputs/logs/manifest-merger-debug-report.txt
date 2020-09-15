@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:17:1-52:12
+INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:17:1-52:12
+INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:17:1-52:12
+	package
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:18:4-37
+		INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:17:11-69
+original-package
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:20:5-64
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:20:23-61
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:22:5-124
+	xmlns:android
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:22:22-80
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:22:81-122
+application
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:23:5-50:19
+	android:label
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:23:18-41
+service#jp.co.omronsoft.openwnn.OpenWnnJAJP
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:25:9-32:19
+	android:label
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:25:45-73
+	android:id
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:27:4-41
+	android:permission
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:26:4-61
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:25:18-44
+intent-filter#action:name:android.view.InputMethod
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:28:13-30:29
+action#android.view.InputMethod
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:29:17-67
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:29:25-64
+meta-data#android.view.im
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:31:13-91
+	android:resource
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:31:55-88
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:31:24-54
+activity#jp.co.omronsoft.openwnn.OpenWnnControlPanelJAJP
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:label
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:35:17-67
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:34:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:38:27-74
+activity#jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsListJAJP
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:42:2-86
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:42:12-83
+activity#jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsEditJAJP
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:44:2-137
+	android:label
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:44:84-134
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:44:12-83
+activity#jp.co.omronsoft.openwnn.EN.UserDictionaryToolsListEN
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:46:2-82
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:46:12-79
+activity#jp.co.omronsoft.openwnn.EN.UserDictionaryToolsEditEN
+ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:48:2-133
+	android:label
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:48:80-130
+	android:name
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml:48:12-79
+uses-sdk
+INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chang\Desktop\repos\OpenWnn-importer\app\src\main\AndroidManifest.xml

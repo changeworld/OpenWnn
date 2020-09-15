@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw768dp-land-v13\\values-sw768dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chang\\Desktop\\repos\\OpenWnn-importer\\app\\src\\main\\res\\values-sw768dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "23,21,18,19,20,26,22,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "891,787,651,694,739,1056,846,952,1001",
+                        "endColumns": "60,58,42,44,47,50,44,48,54",
+                        "endOffsets": "947,841,689,734,782,1102,886,996,1051"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,175,218,263,311,362,407,456",
+                        "endColumns": "60,58,42,44,47,50,44,48,54",
+                        "endOffsets": "111,170,213,258,306,357,402,451,506"
+                    }
+                }
+            ]
+        }
+    ]
+}
