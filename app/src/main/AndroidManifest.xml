@@ -31,7 +31,7 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method_ja" />
         </service>
 
-        <activity android:name="OpenWnnControlPanelJAJP"
+        <activity android:name=".OpenWnnControlPanelJAJP"
                 android:label="@string/preference_ime_setting_app">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
